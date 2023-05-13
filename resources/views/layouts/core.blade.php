@@ -15,9 +15,13 @@
 		{{-- FAVICON --}}
 		<link rel="icon" href="{{ asset('favicon.ico') }}" />
 
+		{{-- FONTS --}}
+		<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap">
+
 		{{-- STYLESHEETS --}}
-		{{-- <link rel="stylesheet" href="{{ asset('css/all.min.css') }}" /> --}}
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+		<link rel="stylesheet" href="{{ asset('css/all.min.css') }}" />
 		<link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}" />
 		<link rel="stylesheet" href="{{ asset('css/mapbox-gl.css') }}" />
 		<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
@@ -27,10 +31,12 @@
 		<link rel="stylesheet" href="{{ asset('css/select2-bootstrap-5-theme.min.css') }}" />
 		<link rel="stylesheet" href="{{ asset('css/sweetalert2.min.css') }}" />
 		<link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}" />
+		<link rel="stylesheet" href="{{ asset('css/stylesheet.min.css') }}" />
+		<link rel="stylesheet" href="{{ asset('css/media.min.css') }}" />
 
 		{{-- SCRIPTS --}}
 		<script src="{{ asset('js/jquery.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="{{ asset('js/all.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/popper.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/bootstrap.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/mapbox-gl.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
@@ -49,9 +55,10 @@
 		<script src="{{ asset('js/signature.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/chart.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/swiper-bundle.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="{{ asset('js/predefined.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 
 		{{-- RECAPTCHA --}}
-		{{-- {!! ReCaptcha::htmlScriptTagJsApi() !!} --}}
+		{!! ReCaptcha::htmlScriptTagJsApi() !!}
 	</head>
 	<body>
 		@include('sweetalert::alert')
