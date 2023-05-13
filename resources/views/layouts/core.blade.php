@@ -29,7 +29,7 @@
 		<link rel="stylesheet" href="{{ asset('css/responsive.bootstrap5.min.css') }}" />
 		<link rel="stylesheet" href="{{ asset('css/select2.min.css') }}" />
 		<link rel="stylesheet" href="{{ asset('css/select2-bootstrap-5-theme.min.css') }}" />
-		<link rel="stylesheet" href="{{ asset('css/sweetalert2.min.css') }}" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css">
 		<link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}" />
 		<link rel="stylesheet" href="{{ asset('css/stylesheet.min.css') }}" />
 		<link rel="stylesheet" href="{{ asset('css/media.min.css') }}" />
@@ -45,7 +45,7 @@
 		<script src="{{ asset('js/mapbox-gl.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/mapbox-gl-circle.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/turf.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/sweetalert2.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/select2.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/excanvas.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/webcam.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
