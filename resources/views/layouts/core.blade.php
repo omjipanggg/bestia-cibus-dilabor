@@ -35,7 +35,7 @@
 		<script src="{{ asset('js/mapbox-gl.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/mapbox-gl-circle.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/turf.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/sweetalert.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="{{ asset('js/sweetalert2.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/select2.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/excanvas.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/webcam.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
