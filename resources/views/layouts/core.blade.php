@@ -51,7 +51,7 @@
 		<script src="{{ asset('js/swiper-bundle.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 
 		{{-- RECAPTCHA --}}
-		{!! ReCaptcha::htmlScriptTagJsApi() !!}
+		{{-- {!! ReCaptcha::htmlScriptTagJsApi() !!} --}}
 	</head>
 	<body>
 		@include('sweetalert::alert')
