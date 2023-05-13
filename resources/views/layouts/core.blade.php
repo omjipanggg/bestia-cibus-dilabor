@@ -47,8 +47,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.7/umd/popper.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox.js/3.3.1/mapbox.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/2.14.1/mapbox-gl.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl-draw/1.4.1/mapbox-gl-draw.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/2.14.1/mapbox-gl.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/6.5.0/turf.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js" defer="" type="text/javascript"></script>
 		<script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.full.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
@@ -58,7 +57,7 @@
 		<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="https://cdn.datatables.net/responsive/2.4.1/js/dataTables.responsive.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.0/chart.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.0/chart.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.1/swiper-bundle.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
 
 		{{-- PREDEFINED --}}
