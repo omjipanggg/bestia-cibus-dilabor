@@ -34,6 +34,9 @@
 		<link rel="stylesheet" href="{{ asset('css/stylesheet.min.css') }}" />
 		<link rel="stylesheet" href="{{ asset('css/media.min.css') }}" />
 
+		{{-- RECAPTCHA --}}
+		{!! ReCaptcha::htmlScriptTagJsApi() !!}
+
 		{{-- SCRIPTS --}}
 		<script src="{{ asset('js/jquery.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/all.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
@@ -57,8 +60,6 @@
 		<script src="{{ asset('js/swiper-bundle.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/predefined.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 
-		{{-- RECAPTCHA --}}
-		{!! ReCaptcha::htmlScriptTagJsApi() !!}
 	</head>
 	<body>
 		@include('sweetalert::alert')
