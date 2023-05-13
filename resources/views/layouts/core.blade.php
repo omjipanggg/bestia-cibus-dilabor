@@ -57,7 +57,6 @@
 		<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="https://cdn.datatables.net/responsive/2.4.1/js/dataTables.responsive.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.0/chart.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.1/swiper-bundle.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
 
 		{{-- PREDEFINED --}}
