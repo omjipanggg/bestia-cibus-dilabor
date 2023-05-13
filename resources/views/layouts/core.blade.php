@@ -21,16 +21,20 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap">
 
 		{{-- STYLESHEETS --}}
-		<link rel="stylesheet" href="{{ asset('css/all.min.css') }}" />
-		<link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}" />
-		<link rel="stylesheet" href="{{ asset('css/mapbox-gl.css') }}" />
-		<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
-		<link rel="stylesheet" href="{{ asset('css/dataTables.bootstrap5.min.css') }}" />
-		<link rel="stylesheet" href="{{ asset('css/responsive.bootstrap5.min.css') }}" />
-		<link rel="stylesheet" href="{{ asset('css/select2.min.css') }}" />
-		<link rel="stylesheet" href="{{ asset('css/select2-bootstrap-5-theme.min.css') }}" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" />
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css" />
+		<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.4.1/css/responsive.dataTables.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.rtl.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/2.14.1/mapbox-gl.min.css" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css">
-		<link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.1/swiper-bundle.min.css" />
+
+		{{-- PREDEFINED --}}
 		<link rel="stylesheet" href="{{ asset('css/stylesheet.min.css') }}" />
 		<link rel="stylesheet" href="{{ asset('css/media.min.css') }}" />
 
@@ -38,26 +42,28 @@
 		{!! ReCaptcha::htmlScriptTagJsApi() !!}
 
 		{{-- SCRIPTS --}}
-		<script src="{{ asset('js/jquery.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/all.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/popper.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/bootstrap.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/mapbox-gl.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/mapbox-gl-circle.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/turf.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.7/umd/popper.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox.js/3.3.1/mapbox.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/2.14.1/mapbox-gl.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl-draw/1.4.1/mapbox-gl-draw.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/6.5.0/turf.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/select2.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/excanvas.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/webcam.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/jquery-ui.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/jquery.ui.touch-punch.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/jquery.dataTables.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/dataTables.bootstrap5.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/dataTables.responsive.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/responsive.bootstrap5.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/signature.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/chart.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/swiper-bundle.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.full.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdn.datatables.net/responsive/2.4.1/js/dataTables.responsive.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.0/chart.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.3.1/swiper-bundle.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
+
+		{{-- PREDEFINED --}}
+		<script src="{{ asset('js/excanvas.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="{{ asset('js/signature.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/predefined.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 
 	</head>
