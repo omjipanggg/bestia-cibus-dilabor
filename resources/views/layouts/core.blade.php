@@ -16,7 +16,8 @@
 		<link rel="icon" href="{{ asset('favicon.ico') }}" />
 
 		{{-- STYLESHEETS --}}
-		<link rel="stylesheet" href="{{ asset('css/all.min.css') }}" />
+		{{-- <link rel="stylesheet" href="{{ asset('css/all.min.css') }}" /> --}}
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 		<link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}" />
 		<link rel="stylesheet" href="{{ asset('css/mapbox-gl.css') }}" />
 		<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
@@ -29,7 +30,7 @@
 
 		{{-- SCRIPTS --}}
 		<script src="{{ asset('js/jquery.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
-		<script src="{{ asset('js/all.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/popper.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/bootstrap.min.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
 		<script src="{{ asset('js/mapbox-gl.js') }}" crossorigin="anonymous" defer="" type="text/javascript"></script>
