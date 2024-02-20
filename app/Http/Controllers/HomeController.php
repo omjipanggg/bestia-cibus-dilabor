@@ -2,20 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Weather;
+
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 use OpenWeather;
 
 class HomeController extends Controller
 {
 	public function index() {
 		$context = [];
-		return view('pages.home', $context);
-	}
 
-	public function fetchWeather(Request $request) {
-		$lat = $request->input('lat');
-		$lon = $request->input('lon');
-		$data = (new OpenWeather())->getForecastWeatherByCoords($lat, $lon);
-		return response()->json($data);
+		return view('pages.home', $context);
 	}
 }

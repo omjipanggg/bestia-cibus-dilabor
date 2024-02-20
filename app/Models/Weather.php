@@ -12,5 +12,7 @@ class Weather extends Model
 
     protected $table = 'weathers';
     protected $guarded = [];
-    protected $casts = [];
+    protected $casts = [
+    	'properties' => 'json'
+    ];
 }

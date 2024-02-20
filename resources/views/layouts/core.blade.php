@@ -41,7 +41,7 @@
 		<link rel="stylesheet" href="{{ asset('css/media.min.css') }}">
 
 		{{-- RECAPTCHA --}}
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
 		{{-- {!! ReCaptcha::htmlScriptTagJsApi() !!} --}}
 
 		{{-- SCRIPTS --}}
@@ -68,12 +68,10 @@
 		<script src="{{ asset('js/predefined.min.js') }}" defer=""></script>
 
 	</head>
-	<body id="ceil">
+	<body id="ceil" class="font-sans antialiased">
 		@include('components.loader')
 		@include('sweetalert::alert')
-        @include('layouts.navigation')
 		@yield('content')
-
         @include('components.footer')
 	</body>
 </html>

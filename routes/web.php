@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\HomeController as Home;
 use App\Http\Controllers\ProfileController as Profile;
+use App\Http\Controllers\WeatherController as Weather;
 
 use Illuminate\Support\Facades\Route;
 
@@ -16,7 +17,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', [Home::class, 'index'])->name('home');
-Route::GET('/weather/fetch', [Home::class, 'fetchWeather'])->name('home.fetchWeather');
+
+Route::resource('/weather', Weather::class);
 
 Route::get('/dashboard', function () {
     return view('dashboard');

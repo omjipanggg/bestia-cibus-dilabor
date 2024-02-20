@@ -15,9 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('lat')->index();
             $table->string('lon')->index();
-            $table->string('exclude')->index();
             $table->string('lang')->default('en')->index();
-            $table->text('description')->nullable();
+            $table->json('data')->nullable();
             $table->timestamp('created_at')->default(\DB::raw('CURRENT_TIMESTAMP'));
             $table->timestamp('updated_at')->default(\DB::raw('CURRENT_TIMESTAMP'));
             $table->softDeletes();
