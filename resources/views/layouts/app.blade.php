@@ -16,6 +16,9 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link rel="stylesheet" href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap">
 
+        <link rel="stylesheet" href="{{ asset('css/stylesheet.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/media.min.css') }}">
+
         {{-- STYLES --}}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -39,7 +42,7 @@
         {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox.js/3.3.1/mapbox.js" crossorigin="anonymous" defer=""></script> --}}
         {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/2.14.1/mapbox-gl.js" crossorigin="anonymous" defer=""></script> --}}
         {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/6.5.0/turf.min.js" crossorigin="anonymous" defer=""></script> --}}
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js" defer=""></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js" crossorigin="anonymous" defer=""></script>
         {{-- <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.full.min.js" crossorigin="anonymous" defer=""></script> --}}
         {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" crossorigin="anonymous" defer=""></script> --}}
         {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" crossorigin="anonymous" defer=""></script> --}}
@@ -56,6 +59,9 @@
             'public/css/stylesheet.min.css',
             'public/js/predefined.min.js'
         ])
+
+        {{-- SCRIPTS --}}
+        <script src="{{ asset('js/predefined.min.js') }}" defer=""></script>
     </head>
     <body class="font-sans antialiased">
         @include('components.loader')

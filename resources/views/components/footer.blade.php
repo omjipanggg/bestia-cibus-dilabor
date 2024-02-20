@@ -9,7 +9,6 @@
 
 <footer class="bg-white">
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-      <span class="text-sm text-gray-500 text-center">{{ date('Y') }} &copy; <a href="/" class="hover:underline">AERIS™</a>
-    </span>
+      <div class="text-sm text-gray-500 text-center">{{ date('Y') }} &copy; <a href="/" class="hover:underline">AERIS™</a></div>
     </div>
 </footer>
