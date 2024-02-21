@@ -52,7 +52,7 @@ img	{
 }
 
 .flex-basis-3 {
-    flex-basis: 240px;
+    flex-basis: 360px;
     flex-grow: 1;
     flex-shrink: 0;
 }

@@ -46,21 +46,21 @@
 					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
 						<div class="p-3 border-bottom border-end border-start rounded-bottom">
 							<div class="d-flex flex-wrap gap-3" id="navCurrent">
-								<div class="text-normal">Please click the <b>big, blue, FETCH button</b> above in order to fetch the weather information.</div>
+								<div class="text-normal">Please click <b>FETCH button</b> above in order to fetch the weather information.</div>
 							</div>
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
 						<div class="p-3 border-bottom border-end border-start rounded-bottom">
 							<div class="d-flex flex-wrap gap-3" id="navDaily">
-								<div class="text-normal">Please click the <b>big, blue, FETCH button</b> above in order to fetch the weather information.</div>
+								<div class="text-normal">Please click <b>FETCH button</b> above in order to fetch the weather information.</div>
 							</div>
 						</div>
 					</div>
 					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
 						<div class="p-3 border-bottom border-end border-start rounded-bottom">
 							<div class="d-flex flex-wrap gap-3" id="navHourly">
-								<div class="text-normal">Please click the <b>big, blue, FETCH button</b> above in order to fetch the weather information.</div>
+								<div class="text-normal">Please click <b>FETCH button</b> above in order to fetch the weather information.</div>
 							</div>
 						</div>
 					</div>
